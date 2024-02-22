@@ -7,9 +7,9 @@
 <h1> Hello. </h1> 
 <p> I am gerdes952. </p>
 <p> my interests are: </p>
-<ul> cross-stitching </ul>
-<ul> learning greek mythology</ul>
-<ul> coding </ul>
+<li> hand-stitching </li>
+<li> greek mythology</li>
+<li> reading </li>
 
 </body>
 </html>
