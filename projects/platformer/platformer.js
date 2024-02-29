@@ -42,8 +42,8 @@ $(function () {
     createCollectable("steve", 200, 170, 6, 0.7); //your example function call
     createCollectable("kennedi", 500, 300); // creates a "kennedi" collectible at the coordinates (500, 300), falling with default gravity and bouncing with default bounce %
 
-    createCannon("left", 600, 1000); // cannon on left wall, 600px down, shooting once per second
-    createCannon("top", 600, 1000); 
+    createCannon("left", 800, 1000); // cannon on left wall, 600px down, shooting once per second
+    createCannon("top", 600, 5000); 
     createCannon("top", 600, 10); 
 
     /////////////////////////////////////////////////
