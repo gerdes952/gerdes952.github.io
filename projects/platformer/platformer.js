@@ -39,12 +39,18 @@ $(function () {
     //////////ONLY CHANGE BELOW THIS POINT///////////
     /////////////////////////////////////////////////
 
-    createCollectable("steve", 200, 170, 6, 0.7); //your example function call
-    createCollectable("kennedi", 500, 300); // creates a "kennedi" collectible at the coordinates (500, 300), falling with default gravity and bouncing with default bounce %
+  
 
-    createCannon("left", 800, 1000); // cannon on left wall, 600px down, shooting once per second
-    createCannon("top", 600, 5000); 
-    createCannon("top", 600, 10); 
+
+    createCollectable("steve", 200, 170, 6, 0.7); //your example function call
+    createCollectable("kennedi", 500, 300, 6, 0.7); 
+    createCollectable("database", 600, 400, 6, 0.5);
+
+    
+    createCannon("top", 900, 1000); 
+    createCannon("top", 1000, 1000); 
+    createCannon("bottom", 700, 1000); 
+
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
